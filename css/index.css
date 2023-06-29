@@ -1,0 +1,44 @@
+.mobile-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 1px solid #999;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.mobile-container .dashboard {
+  width: 100%;
+  height: 200px;
+  background: #d68ebe;
+}
+.mobile-container .board {
+  width: 100%;
+  flex: 1;
+  background-color: #fbc060;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.mobile-container .board .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.mobile-container .board .row:last-child {
+  margin-bottom: 0;
+}
+.mobile-container .board .row .col {
+  width: 80px;
+  height: 80px;
+  border-radius: 4px;
+}
+.mobile-container .board .row .col.grid {
+  background-color: #999;
+}
+.mobile-container .board .row .col.grid .tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}/*# sourceMappingURL=index.css.map */
